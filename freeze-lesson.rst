@@ -6,12 +6,11 @@ As the workshop gets closer we want to have a "frozen" reference to the lesson
 so that we can be sure that no big changes happen between owr workshop
 preparation and the workshop itself.
 
-We do not fork the repository directly in the ``scw-ss`` github organization as
-github only allows forking a repo once.
+We should not fork the repository directly in the ``scw-ss`` github organization as
+github only allows forking a repo once, thus this will only work the first time
+we do it. Instead we create a completely independent repository from an existing one.
 
-So we will create a completely independent ``scw-ss`` repo from an existing ``swcarpentry`` one.
-
-Let's do it with Software Carpentry ``git-novice lesson``. We will clone it to the ``scw-ss`` github organization account.
+Let's do it with Software Carpentry git-novice lesson. We will clone the repo ``http://swcarpentry.github.io/git-novice`` to ``https://github.com/scw-ss/2018-06-27-cfmehu-git-novice`` in the github ``scw-ss`` organization account. For this::
 
 
 1.- In github, create the desired target repo ``iamc/2018-06-27-cfmehu-git-novice``
